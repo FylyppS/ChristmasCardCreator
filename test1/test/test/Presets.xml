@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Presets>
+	<Preset0>
+		<Element1 Type="Image" Name="back"
+				Source="pack://application:,,,/Pictures/back0.png"
+				Height="500" Width="500"
+				Stretch="Uniform"
+				IsHitTestVisible="True"
+				ZIndex="-1000">
+		</Element1>
+
+		<Element2 Type="TextBlock" Name="textBlock" X="0" Y="0"
+				  FontFamily="Arial"
+				  FontSize="22"
+				  Foreground ="Black"	
+				  Text="Your Text Here">
+		</Element2>
+
+		<Element3 Type="Image" Name="frame"
+				Height="500" Width="500"
+				Stretch="Fill"
+				IsHitTestVisible="False"
+				ZIndex="3">
+		</Element3>
+
+		<Element4 Type="InkCanvas" Name="inkCanvas" Width="500" Height="500" Background="Transparent" IsHitTestVisible="False" ZIndex="5">
+		</Element4>
+	</Preset0>
+
+	<Preset1>
+		<Element1 Type="Image" Name="back"
+				  Source="pack://application:,,,/Pictures/back1.png"
+				  Height="500" Width="500"
+				  Stretch="Uniform"
+				  IsHitTestVisible="True"
+				  ZIndex="-1000">
+		</Element1>
+
+		<Element2 Type="TextBlock" Name="textBlock" X="200" Y="110"
+				  FontFamily="Lucida Handwriting"
+				  FontSize="20"
+				  Foreground ="Gold"
+				  Text="Wszystkiego najlepszego z okazji Świąt Bożego Narodzenia!">
+		</Element2>
+
+		<Element3 Type="Image" Name="frame"
+				  Source="pack://application:,,,/Frames/frame1.png"
+				  Height="500" Width="500"
+				  Stretch="Fill"
+				  IsHitTestVisible="False"
+				  ZIndex="3">
+		</Element3>
+
+		<Element4 Type="TextBlock" Name="textBlock" X="200" Y="250"
+				  FontFamily="Lucida Handwriting"
+				  FontSize="20"
+				  Foreground ="Gold"
+				  Text="Dla:">
+		</Element4>
+
+		<Element5 Type="TextBlock" Name="textBlock" X="200" Y="300"
+				  FontFamily="Lucida Handwriting"
+				  FontSize="20"
+				  Foreground ="Gold"
+				  Text="Od:">
+		</Element5>
+
+		<Element6 Type="InkCanvas" Name="inkCanvas" Width="500" Height="500" Background="Transparent" IsHitTestVisible="False" ZIndex="5">
+		</Element6>
+	</Preset1>
+	
+	<Preset2>
+		<Element1 Type="Image" Name="back"
+				  Source="pack://application:,,,/Pictures/back2.png"
+				  Height="500" Width="500"
+				  Stretch="Uniform"
+				  IsHitTestVisible="True"
+				  ZIndex="-1000">
+		</Element1>
+
+		<Element2 Type="TextBlock" Name="textBlock" X="100" Y="150"
+				  FontFamily="Artifakt Element Light"
+				  FontSize="28"
+				  Foreground ="White"
+				  Text="Wesołej wielkanocy i pysznego jajka!">
+		</Element2>
+
+		<Element3 Type="Image" Name="frame"
+				  Source="pack://application:,,,/Frames/frame2.png"
+				  Height="500" Width="500"
+				  Stretch="Fill"
+				  IsHitTestVisible="False"
+				  ZIndex="3">
+		</Element3>
+
+		<Element4 Type="TextBlock" Name="textBlock" X="100" Y="280"
+				  FontFamily="Artifakt Element Light"
+				  FontSize="28"
+				  Foreground ="White"
+				  Text="Dla:">
+		</Element4>
+
+		<Element5 Type="TextBlock" Name="textBlock" X="100" Y="330"
+				  FontFamily="Artifakt Element Light"
+				  FontSize="28"
+				  Foreground ="White"
+				  Text="Od:">
+		</Element5>
+
+		<Element6 Type="InkCanvas" Name="inkCanvas" Width="500" Height="500" Background="Transparent" IsHitTestVisible="False" ZIndex="5">
+		</Element6>
+	</Preset2>
+</Presets>
