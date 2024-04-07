@@ -1,0 +1,21 @@
+﻿<Window x:Class="test.tips"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="tips" Height="250" Width="420">
+    <Grid Margin="0,0,0,-1">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="3,0,0,0">
+            <Label Content="Edycja tekstu: kliknij RMB w tekst i wpisz zawartość do ramki nad kartką"/>
+            <Label Content="Dodawanie własnej czcionki: dodaj swoją czcionkę do folderu w Windows"/>
+            <Label Content="Obracanie elementu: lCtrl + Scroll"/>
+            <Label Content="Kolejność rysowania elementu: lShift + Scroll"/>
+            <Label Content="Zmiana wielkości elementu: Scroll"/>
+            <Label Content="Powrót elementu na miejsce początkowe: RMB"/>
+            <Label Content="Wymazywanie podpisu: RMB + LMB"/>
+        </StackPanel>
+        <Label Content="" Margin="3,14,19,195"/>
+    </Grid>
+</Window>
