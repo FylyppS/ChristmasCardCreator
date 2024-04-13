@@ -1,0 +1,31 @@
+﻿<Window x:Class="test.tips"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="Wskazówki" Height="220" Width="420">
+    <Grid Margin="0,0,0,-1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row ="1" Content="Edycja tekstu: kliknij RMB w tekst i wpisz zawartość do ramki nad kartką."/>
+            <Label Grid.Row ="2" Content="Dodawanie własnej czcionki: dodaj swoją czcionkę do folderu w Windows."/>
+            <Label Grid.Row ="3" Content="Obracanie elementu: lCtrl + Scroll."/>
+            <Label Grid.Row ="4" Content="Kolejność rysowania elementu: lShift + Scroll."/>
+            <Label Grid.Row ="5" Content="Zmiana wielkości elementu: Scroll."/>
+            <Label Grid.Row ="6" Content="Powrót elementu na miejsce początkowe: RMB."/>
+            <Label Grid.Row ="7" Content="Wymazywanie podpisu: RMB + LMB."/>
+        </Grid>
+    </Grid>
+</Window>
