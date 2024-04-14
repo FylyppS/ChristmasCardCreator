@@ -1,0 +1,25 @@
+Projekt: Aplikacja do robienia kartek świątecznych
+
+Funkcjonalności:
+Otwieranie i zapis zdjęcia wybranego przez użytkownika,
+Wybór ramki i tła z domyślnych presetów programowych,
+Wybór treści wiadomości do kartki i modyfikacja stylu,
+Manipulacja zdjęciem (greyscale, przemieszczenie, zoom),
+Podanie imienia i nazwiska adresata na kartce, zapisanie imienia i nazwiska do bazy.
+
+Nowe funkcjonalności:
+wybór szablonów kartek (udostępnianie kilku różnorodnych szablonów kartek świątecznych + możliwość stworzenia własnej kartki)
+	X struktura xaml z predefiniowanymi grafikami, do wyboru użytkownika
+dodawanie podpisu ręcznego
+	X dodawanie podpisu ręcznego
+wybór formatu pliku w zależności od preferencji użytkownika i wymagań drukarni
+	X wybór rozszerzeń
+	X wybór rozmiaru
+zapisywanie i udostępnianie kartek
+	X zapis kartek
+	X udostępnianie kodem QR albo mailem 
+edycja tekstu/wybór czcionek i kolorów/edycja tła/dodawanie obrazków i grafik
+	X edycja tekstu
+	X wybór czcionek i kolorów
+	X edycja tła
+	X dodawanie obrazków i grafik
